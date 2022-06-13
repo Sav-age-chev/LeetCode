@@ -1,3 +1,4 @@
+//My initial solution
 class Solution {
     public boolean isPalindrome(int x) {
         
@@ -17,3 +18,5 @@ class Solution {
 
     }
 }
+
+//LeetCode optimised solution
