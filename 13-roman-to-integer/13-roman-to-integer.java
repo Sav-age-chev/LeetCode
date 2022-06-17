@@ -1,9 +1,10 @@
-//My initial solution
+/* My initial solution (Time Complexity: O(n), Space Compleity: O(1)) */
 class Solution {
     public int romanToInt(String s) {
         int sum = 0, curr = 0, prev = 0;
+        char c;
         for (int i=0; i<s.length(); i++) {
-            char c = s.charAt(i);             
+            c = s.charAt(i);             
             switch (c) {
                 case 'M':
                     curr = 1000;
