@@ -6,6 +6,7 @@ class Solution {
         Stack<Character> parStack = new Stack<Character>();
         char tempChar;
         
+        // Looping through the characterrs of the string
         for (int i=0; i<s.length(); i++) {
             
             // Assigning value to the char
