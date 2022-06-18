@@ -12,7 +12,7 @@ class Solution {
             // Assigning value to the char
             tempChar = s.charAt(i);
             
-            //Add char to the stack as a default. Pop top of the stack in case of coresponding value of thre parentheses or return false if that's not the case 
+            //Add char to the stack as a default. Pop the top of the stack in case of coresponding value of thre parentheses or return false if that's not the case 
             switch (tempChar) {
                 case ')':
                     tempChar--;
