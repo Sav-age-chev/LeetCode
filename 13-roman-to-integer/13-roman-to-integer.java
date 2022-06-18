@@ -28,7 +28,7 @@ class Solution {
                     curr = 1;
                     break;
                 default:
-                    System.out.println("Unexpected character!");
+                    System.out.println("Unexpected character!!");
             }
             if (curr <= prev) {
                 sum += curr;
