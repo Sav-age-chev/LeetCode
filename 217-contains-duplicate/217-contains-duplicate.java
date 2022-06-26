@@ -18,3 +18,22 @@ class Solution {
         return false;
     }
 }
+
+/* LeetCode optimised solution (Time complexity: O(n), Space complexity: O(n)) */
+// class Solution {
+//     public boolean containsDuplicate(int[] nums) {
+        
+//         // Instantiating new hashset
+//         Set<Integer> numbers = new HashSet<>(nums.length);
+        
+//         for (int x : nums) {
+            
+//             // If number exist in the hashset already, returns true, else add it
+//             if (numbers.contains(x)) return true;
+            
+//             numbers.add(x);
+//         }
+//         // If no duplicates are found, return false
+//         return false;
+//     }
+// }
